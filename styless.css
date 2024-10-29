@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Space+Grotesk:wght@300..700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Space Grotesk;
+}
+
+.main {
+  background-color: #151515;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.header {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.3333333432674408px;
+  text-align: left;
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.image-profile-mobile {
+  transform: translate(10px, -112px);
+}
+
+.greeting {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: -1.1363636255264282px;
+  text-align: center;
+}
+
+.rectangle {
+  width: 225px;
+  height: 4px;
+  top: 80px;
+  left: 86px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: #4ee1a0;
+}
+
+.paragraph-style {
+  font-family: Space Grotesk;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: center;
+}
+
+.rectangle-two {
+  width: 343px;
+  height: 1px;
+  top: 747px;
+  left: 16px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: #ffffff;
+}
+
+.technology {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.tech-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 71px;
+}
+
+.contact-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.image {
+  width: 397px;
+}
+
+.information-section {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.project-header {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+}
+
+.technology-two {
+  color: #d9d9d9;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+  display: flex;
+  gap: 18px;
+}
+
+.project-description {
+  font-family: Space Grotesk;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 2.2857143878936768px;
+  text-align: left;
+  gap: 32px;
+  display: flex;
+}
+
+.rectangle-project {
+  width: 138px;
+  height: 2px;
+  top: 36px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: #4ee1a0;
+}
+
+.rectangle-code {
+  width: 103px;
+  height: 2px;
+  top: 36px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: #4ee1a0;
+}
