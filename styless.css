@@ -14,6 +14,7 @@
   flex-direction: column;
   align-items: center;
   gap: 12px;
+  padding: 15px;
 }
 
 .header {
@@ -150,4 +151,91 @@
   gap: 0px;
   opacity: 0px;
   background-color: #4ee1a0;
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #242424;
+  padding: 49px;
+  gap: 9px;
+}
+
+.form-container {
+  padding: 20px;
+  width: 300px;
+}
+
+.form-container label {
+  color: #cccccc;
+  font-size: 12px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-container input,
+.form-container textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+  background-color: #242424;
+  color: #ffffff;
+  outline: none;
+  border-radius: 4px;
+  border: none;
+}
+
+.form-container textarea {
+  height: 100px;
+  resize: none;
+}
+
+.form-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  border: none;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.form-container button::after {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 2px;
+  background-color: #00ff99;
+  bottom: -5px;
+  left: 25%;
+  transition: width 0.3s ease;
+}
+
+.form-container button:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+.line {
+  width: 343px;
+  height: 1px;
+  top: 42px;
+  gap: 0px;
+  opacity: 0px;
+  background: #ffffff;
+  transform: translate(-8px, -25px);
+}
+
+.love-to-hear-section {
+  font-family: Space Grotesk;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: center;
 }
