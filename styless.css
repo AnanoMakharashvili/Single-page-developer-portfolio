@@ -17,6 +17,43 @@
   padding: 31px;
 }
 
+.image-profile-mobile {
+  display: block;
+}
+
+.image-profile-desktop {
+  display: none;
+}
+
+.image-profile-tablet {
+  display: none;
+}
+
+.header-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.first-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.second-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
 .header {
   font-size: 24px;
   font-weight: 700;
@@ -44,6 +81,16 @@
 }
 
 .rectangle {
+  width: 225px;
+  height: 4px;
+  top: 80px;
+  left: 86px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: #4ee1a0;
+}
+
+.rectangle-style {
   width: 225px;
   height: 4px;
   top: 80px;
@@ -222,6 +269,18 @@
   left: 0;
 }
 
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-info-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .line {
   width: 343px;
   height: 1px;
@@ -232,10 +291,231 @@
   transform: translate(-8px, -25px);
 }
 
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 23px;
+  margin-top: 16px;
+}
+
 .love-to-hear-section {
   font-family: Space Grotesk;
   font-size: 16px;
   font-weight: 500;
   line-height: 26px;
   text-align: center;
+}
+
+@media (min-width: 768px) {
+  .main-info {
+    display: flex;
+    gap: 344px;
+    transform: translate(-194px, 35px);
+  }
+
+  .header-section {
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+
+  .header {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.4444444477558136px;
+    text-align: left;
+  }
+
+  .image-profile-mobile {
+    display: none;
+  }
+
+  .image-profile-desktop {
+    display: none;
+  }
+
+  .image-profile-tablet {
+    display: block;
+    width: 444px;
+  }
+
+  .greeting {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: -2.045454502105713px;
+    text-align: left;
+    transform: translate(85px, 17px);
+  }
+
+  .rectangle {
+    width: 402px;
+    height: 6px;
+    transform: translate(89px, -20px);
+  }
+
+  .rectangle-two {
+    width: 706px;
+    height: 1px;
+  }
+
+  .second-section {
+    gap: 60px;
+  }
+
+  .contact-me {
+    transform: translate(-87px, 162px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-style {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 2.2857143878936768px;
+    text-align: left;
+  }
+
+  .rectangle-style {
+    width: 120px;
+    height: 2px;
+  }
+
+  .technology {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 52px;
+    margin-top: 31px;
+  }
+
+  .experience-description {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -1.5px;
+    text-align: left;
+  }
+
+  .project-section {
+    gap: 313px;
+    margin-top: 62px;
+  }
+
+  .projects-style {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: -2.045454502105713px;
+    text-align: left;
+  }
+
+  .gallery-section {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 23px;
+    margin-top: 34px;
+  }
+
+  .line {
+    width: 445px;
+    height: 1px;
+  }
+
+  .footer-contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info {
+    flex-direction: row;
+    gap: 344px;
+  }
+
+  .name-style {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.4444444477558136px;
+    text-align: left;
+  }
+}
+
+@media (min-width: 1024px) {
+  .main-info {
+    gap: 716px;
+    transform: translate(-382px, 35px);
+    display: flex;
+    align-items: center;
+  }
+  .image-profile-mobile {
+    display: none;
+  }
+
+  .greeting {
+    transform: translate(150px, 10px);
+  }
+
+  .image-profile-desktop {
+    display: block;
+    width: 600px;
+  }
+
+  .image-profile-tablet {
+    display: none;
+  }
+
+  .rectangle-two {
+    width: 1110px;
+    height: 1px;
+  }
+  .technology {
+    grid-template-columns: 2fr 2fr 2fr;
+  }
+
+  .image {
+    width: 547.17px;
+  }
+
+  .footer-section {
+    padding: 96px;
+  }
+
+  .footer-contact-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 150px;
+  }
+
+  .contact-info-title {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+  }
+
+  .contact-info-item {
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 88px;
+    letter-spacing: -2.5px;
+    text-align: left;
+  }
+
+  .love-to-hear-section {
+    font-family: Space Grotesk;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    width: 445px;
+    height: 84px;
+  }
+
+  .info {
+    gap: 716px;
+  }
 }
