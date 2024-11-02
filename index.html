@@ -239,14 +239,15 @@
             <form>
               <label for="name">NAME</label>
               <input type="text" id="name" name="name" required />
-              <div class="line"></div>
+              <div class="line" id="line"></div>
               <label for="email">EMAIL</label>
               <input type="email" id="email" name="email" required />
-              <div class="line"></div>
+              <div class="line-first" id="line-first"></div>
+              <span id="error-message">Sorry, invalid format here</span>
               <label for="message">MESSAGE</label>
               <textarea id="message" name="message" required></textarea>
               <div class="line"></div>
-              <button type="submit">Send Message</button>
+              <button type="submit" id="submit">Send Message</button>
             </form>
           </div>
         </div>
@@ -265,5 +266,6 @@
         </div>
       </footer>
     </main>
+    <script src="script.js"></script>
   </body>
 </html>
