@@ -258,6 +258,7 @@
   letter-spacing: 1px;
   position: relative;
   transition: all 0.3s ease;
+  cursor: pointer;
 }
 
 .form-container button::after {
@@ -401,6 +402,11 @@
     line-height: 26px;
     letter-spacing: 2.2857143878936768px;
     text-align: left;
+    cursor: pointer;
+  }
+
+  .contact-style:hover.contact-button {
+    color: #4ee1a0;
   }
 
   .rectangle-style {
